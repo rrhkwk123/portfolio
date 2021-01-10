@@ -188,7 +188,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 22px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -206,6 +206,58 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+
+.about_me {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  background: #fff;
+  height: 100%;
+  width: 100%; 
+}
+
+.about_me_title {
+  margin-left: 6vw;
+  margin-right: 12vw;
+  width: 25vw;
+  box-sizing: border-box;
+  text-align: center;
+  align-self: center;
+}
+
+.about_me_content{
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  box-sizing: border-box;
+padding: 1rem;
+  margin-right:8vw;
+  width: 100%;
+}
+@media (max-width: 576px) { 
+  .about_me{
+      display:inherit;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    
+  }   
+  .about_me_title{
+      display: inline-block;
+    text-align: center;
+ margin:0 auto;
+  }
+  .about_me_content{
+      display: inline-block;
+    margin-top: 0px;
+     width:100%;
+  }
+   }  
+
+.skill_content {
+  display: flex;
+}
+
 section {
   padding: 70px 0;
 }
