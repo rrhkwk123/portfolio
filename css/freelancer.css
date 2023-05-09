@@ -82,7 +82,7 @@ hr.star-primary {
   border-color: #2C3E50;
 }
 hr.star-primary2 {
-  border-color:white;
+  border-color:black;
 }
 
 hr.star-primary:after {
@@ -126,7 +126,7 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
     padding-top: 110px;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -263,7 +263,7 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2.3em;
 }
 section.success {
   background: white;
